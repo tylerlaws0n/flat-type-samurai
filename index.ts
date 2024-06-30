@@ -211,3 +211,4 @@ export type {
   ValueOfOnly,
   ValueOfArray,
 } from "./src/value-of";
+export * from "./src/minus";
