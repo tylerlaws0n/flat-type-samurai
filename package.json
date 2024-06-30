@@ -8,13 +8,9 @@
     "build": "tsup index.d.ts --dtsOnly"
   },
   "files": [
-    "dist/index.d.ts",
+    "dist",
     "src"
   ],
-  "author": {
-    "name": "Kamil Salimli",
-    "email": "kamilsalimli1940@gmail.com"
-  },
   "keywords": [
     "typescript",
     "types",
@@ -27,7 +23,6 @@
     "length",
     "utils"
   ],
-  "repository": "github:KamilHs/type-samurai",
   "license": "MIT",
   "devDependencies": {
     "@tsd/typescript": "^5.0.4",
