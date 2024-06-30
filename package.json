@@ -5,7 +5,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest -c jest.config.tsd.js",
-    "build": "tsup index.d.ts --dtsOnly"
+    "build": "tsup index.ts --dtsOnly"
   },
   "files": [
     "dist",
