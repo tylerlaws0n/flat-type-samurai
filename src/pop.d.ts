@@ -1,7 +1,7 @@
 import { IsEmptyArray } from "./array";
 import { If } from "./if";
 
-type PopOptions = {
+export type PopOptions = {
   includeRemoved: boolean;
 };
 

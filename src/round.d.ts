@@ -14,7 +14,7 @@ import { Increment } from "./increment";
  * type T1 = Round<-3.14>;
  * ```
  */
-type Round<T extends number> = IsFloat<T> extends true
+export type Round<T extends number> = IsFloat<T> extends true
   ? GetFloatNumberParts<T> extends [
       infer Whole extends number,
       infer Fraction extends number

@@ -1,6 +1,6 @@
 import { If } from "./if";
 
-type PrettifyOptions = {
+export type PrettifyOptions = {
   recursive: boolean;
 };
 

@@ -1,6 +1,6 @@
 import { If } from "./if";
 
-type ShiftOptions = {
+export type ShiftOptions = {
   includeRemoved: boolean;
 };
 

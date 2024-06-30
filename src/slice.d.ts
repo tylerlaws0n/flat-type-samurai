@@ -32,7 +32,7 @@ type FilterRemoved<
  * type T1 = Slice<[1, 2, 3, 4], 1, 3>;
  * ```
  */
-type Slice<
+export type Slice<
   T extends readonly unknown[],
   Start extends number = 0,
   End extends number = T["length"]
